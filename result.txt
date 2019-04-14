@@ -1,0 +1,64 @@
+FOR BANKDATA :
+CONFUSION MATRIX:
+[[145   1]
+ [  1 128]]
+CLASSICATION REPORT:
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       146
+           1       0.99      0.99      0.99       129
+
+   micro avg       0.99      0.99      0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+FOR IRIS DATA:
+
+USING polynomial_kernel:
+CONFUSION MATRIX:
+[[11  0  0]
+ [ 0  5  0]
+ [ 0  3 11]]
+CLASSICATION REPORT:
+               precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        11
+Iris-versicolor       0.62      1.00      0.77         5
+ Iris-virginica       1.00      0.79      0.88        14
+
+      micro avg       0.90      0.90      0.90        30
+      macro avg       0.88      0.93      0.88        30
+   weighted avg       0.94      0.90      0.91        30
+-----------------------------------------------------------------------------
+USING gaussian_kernel:
+CONFUSION MATRIX:
+[[11  0  0]
+ [ 0  5  0]
+ [ 0  0 14]]
+CLASSICATION REPORT:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        11
+Iris-versicolor       1.00      1.00      1.00         5
+ Iris-virginica       1.00      1.00      1.00        14
+
+      micro avg       1.00      1.00      1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
+------------------------------------------------------------------------------
+USING sigmoid_kernel:
+CONFUSION MATRIX:
+[[ 0 11  0]
+ [ 0  5  0]
+ [ 0 14  0]]
+CLASSICATION REPORT:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       0.00      0.00      0.00        11
+Iris-versicolor       0.17      1.00      0.29         5
+ Iris-virginica       0.00      0.00      0.00        14
+
+      micro avg       0.17      0.17      0.17        30
+      macro avg       0.06      0.33      0.10        30
+   weighted avg       0.03      0.17      0.05        30
