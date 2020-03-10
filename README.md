@@ -1,2 +1,3 @@
 # SVM
-Implemented a SVM using polynomial kernal , Gaussian Kernal and 
+Implemented a SVM using polynomial kernal , Gaussian Kernal and sigmoid kernal
+
